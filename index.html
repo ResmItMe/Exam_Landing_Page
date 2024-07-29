@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    /> 
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles_2.css">
+    <link rel="stylesheet" href="reponsive.css">
+    <link rel="stylesheet" href="./scroll.css">
+    <!-- <link rel="stylesheet" href="step.css"> -->
+    <script defer src="https://unpkg.com/scrollreveal"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="main.js"></script>
+    <script defer src="./scroll.js"></script>
+    <title>Web Design Mastery | TravelDream</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#" class="logo">PCCC <span>THOAI DEV</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Trang chủ</a></li>
+        <li><a href="#destination">Thông tin</a></li>
+        <li><a href="#reason">Nguyên nhân</a></li>
+        <li><a href="#measure">Biện pháp</a></li>
+        <li><a href="#client">Hướng dẫn</a></li>
+        <li><a href="#package">Tuyên truyền</a></li>
+      </ul>
+    </nav>
+    <!-- Trang chủ -->
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        <h1>BẢO VỆ AN TOÀN</h1>
+        <p>Sức khỏe và mạng sống của mọi người <br> <br>
+          Bảo vệ cuộc sống - An toàn hôm nay, hạnh phúc ngày mai
+        </p>
+        
+      </div>
+    </header>
+    <!-- Tóm tắt website -->
+    <section class="section__container feature__container" id="service">
+      <div class="feature__card">
+        <img src="./assets/search.png" alt="feature" />
+        <div>
+          <h4>Thông tin </h4>
+          <p>Tổng hợp tin tức và nghiên cứu về phòng cháy chữa cháy, bao gồm sự kiện, tiến bộ công nghệ và thay đổi pháp lý.</p>
+        </div>
+      </div>
+      <div class="feature__card">
+        <img src="./assets/bell.png" alt="feature" />
+        <div>
+          <h4>Tuyên truyền </h4>
+          <p>Tài liệu và chiến dịch nhằm nâng cao nhận thức cộng đồng về phòng cháy chữa cháy, bao gồm chương trình giáo dục và sự kiện cộng đồng.</p>
+        </div>
+      </div>
+      <div class="feature__card">
+        <img src="./assets/disaster-recovery.png" alt="feature" />
+        <div>
+          <h4>Nguyên nhân </h4>
+          <p>Phân tích các nguyên nhân phổ biến dẫn đến cháy, bao gồm sự cố kỹ thuật, bất cẩn và các yếu tố khác.</p>
+        </div>
+      </div>
+      <div class="feature__card">
+        <img src="./assets/handle-with-care.png" alt="feature" />
+        <div>
+          <h4>Biện pháp </h4>
+          <p>Đưa ra các biện pháp phòng ngừa hiệu quả, như bảo trì thiết bị, quản lý chất liệu dễ cháy, và kiểm tra hệ thống phòng cháy định kỳ.</p>
+        </div>
+      </div>
+      <div class="feature__card">
+        <img src="./assets/easy-use.png" alt="feature" />
+        <div>
+          <h4>Sử dụng bình cứu hỏa </h4>
+          <p>Hướng dẫn chi tiết về cách sử dụng bình cứu hỏa đúng cách, các loại bình và ứng dụng của chúng trong tình huống khẩn cấp.</p>
+        </div>
+      </div>
+      <div class="feature__card">
+        <img src="./assets/survey.png" alt="feature" />
+        <div>
+          <h4>Khảo sát </h4>
+          <p>Đánh giá hiệu quả các biện pháp phòng cháy qua khảo sát cộng đồng, nhằm cải thiện nhận thức và ứng phó.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Các bài báo -->
+    <section class="destination" id="destination">
+      <div class="section__container destination__container">
+        <h2 class="section__header">Các <span class="hightlight"> Bài Báo </span>Nổi Bật</h2>
+        <p class="section__description">
+          Cập nhật tin tức, sự kiện nóng nhất xung quanh vấn đề cháy nổ
+        </p>
+        <div class="destination__grid">
+          <a href="https://vnexpress.net/chay-lon-cong-ty-go-trong-dem-4774267.html">
+            <div class="destination__card">
+              <img src="https://i1-vnexpress.vnecdn.net/2024/07/26/chay-bd-6917-1721936796.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=MGzDxc7tA9DolkQ1IX0m0w" alt="destination" />
+              <div class="destination__content">Cháy lớn công ty gỗ trong đêm</div>
+            </div>
+          </a>
+          <a href="https://vnexpress.net/chay-truong-mam-non-71-tre-so-tan-4773845.html">
+            <div class="destination__card">
+              <img src="https://i1-vnexpress.vnecdn.net/2024/07/25/f222731f-c118-4f3e-be56-8adba3-4897-8304-1721885059.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=tyv_sfq-lj-3XxC0zE0jqw" alt="destination" />
+              <div class="destination__content">Cháy trường mầm non, 71 trẻ sơ tán
+              </div>
+            </div>
+          </a>
+          
+          <a href="https://vnexpress.net/chay-nha-o-tp-hcm-3-me-con-tu-vong-4769737.html">
+            <div class="destination__card">
+              <img src="https://i1-vnexpress.vnecdn.net/2024/07/14/ea194a2a93b931e768a8-172092561-2272-5498-1720925669.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=jxSdw3dB-YO7VUAPyUQv5w" alt="destination" />
+              <div class="destination__content">Cháy nhà ở TP HCM, 3 mẹ con tử vong</div>
+            </div>
+          </a>
+
+          <a href="https://vnexpress.net/xuong-bao-bi-chay-ngun-ngut-cot-khoi-cao-ca-tram-met-4766304.html">
+            <div class="destination__card">
+              <img src="https://i1-vnexpress.vnecdn.net/2024/07/04/448893878-1594570384657989-214-4702-5782-1720110894.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=B4GEeH3pZVNiESuPvWlpkw" alt="destination" />
+              <div class="destination__content">Xưởng bao bì cháy ngùn ngụt, cột khói cao cả trăm mét</div>
+            </div>
+          </a>
+
+          <a href="https://vnexpress.net/chay-nha-o-da-lat-3-anh-em-ruot-tu-vong-4761909.html">
+            <div class="destination__card">
+              <img src="https://i1-vnexpress.vnecdn.net/2024/06/24/z5568981214418-a62db5838cf5faa-3557-9687-1719219277.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=Au9Qg3KzLqhL0HohbsRuXw" alt="destination" />
+              <div class="destination__content">Cháy nhà ở Đà Lạt, 3 anh em ruột tử vong</div>
+            </div>
+          </a>
+          <a href="https://vnexpress.net/vu-chay-o-pho-dinh-cong-ha-dien-ra-nhu-the-nao-4759206.html">
+            <div class="destination__card">
+              <img src="https://i1-vnexpress.vnecdn.net/2024/06/17/lua-chay-5312-1718609455.jpg?w=680&h=0&q=100&dpr=1&fit=crop&s=Ajo5Dv6mfO2v-LWx6GGD4Q" alt="destination" />
+              <div class="destination__content">Vụ cháy ở phố Định Công Hạ diễn ra như thế nào</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!--Nguyên nhân  -->
+    <section class="section__container service__container" id="reason">
+      <div class="service__image">
+        <img src="https://i.pinimg.com/564x/1a/d2/7d/1ad27d8f08c3fc506e20b877dd4f9c4a.jpg" alt="service" />
+      </div>
+      <div class="service__content">
+        <h2 class="section__header">
+          Các <span class="hightlight">Nguyên Nhân</span> Chính Gây Ra Hỏa Hoạn
+        </h2>
+        <ul class="service__list">
+          <li>
+            <span><i class="ri-plug-fill"></i></span>
+            <div>
+              <h4>Các sự cố về điện</h4>
+              <p>
+                Do dây điện bị hỏng, cách điện kém hoặc thiết bị điện bị lỗi.
+                Sử dụng nhiều thiết bị điện cùng lúc vượt quá công suất cho phép.
+                Các thiết bị điện không đảm bảo an toàn.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-fire-fill"></i></span>
+            <div>
+              <h4>Các vật liệu dễ cháy</h4>
+              <p>
+                Xăng dầu, cồn, các chất dễ bay hơi khác nếu không được bảo quản đúng cách.
+                Vật liệu xây dựng dễ cháy: Gỗ, nhựa, vải, giấy.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-temp-hot-line"></i></span>
+            <div>
+              <h4>Yếu tố về môi trường</h4>
+              <p>
+                Thời tiết khô hanh, Nhiệt độ cao, độ ẩm thấp, gió lớn dễ làm bùng phát hỏa hoạn.
+                Sét có thể gây cháy nếu đánh trúng các vật dễ cháy hoặc các công trình.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Biện pháp -->
+    <section class="section__container" id="measure">
+      <h1 class="section__header">Các <span class="hightlight"> Biện Pháp </span>Phòng Chống Cháy Nổ</h1>
+      <div class="container_cover">
+        <div class="row">
+          <div class="card">
+              <h4>Kiểm tra và bảo trì hệ thống nguồn điện</h4>
+              <p>Để đảm bảo an toàn, hệ thống điện trong khu dân cư cần được kiểm tra và bảo trì định kỳ.
+                Điều này sẽ giúp phát hiện và sửa chữa các vấn đề về điện trước khi chúng gây ra nguy hiểm.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+              <h4>Lưu trữ và sử dụng hóa chất an toàn</h4>
+              <p>Hóa chất cần được lưu trữ và sử dụng một cách an toàn để tránh gây ra nguy hiểm. 
+                Điều này có nghĩa là hóa chất cần được lưu trữ gọn gàng trong các thùng chứa an toàn và được đánh dấu rõ ràng.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+              <h4>Tuân thủ các quy định về an toàn PCCC</h4>
+              <p>Điều này có nghĩa là cần phải có các biện pháp phòng ngừa hỏa hoạn, như 
+                lắp đặt báo cháy và cách sử dụng bình chữa cháy an toàn, tuân thủ các quy định về sử dụng lò sưởi và các thiết bị khác.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+              <h4>Lắp đặt hệ thống báo cháy tự động</h4>
+              <p>Hệ thống báo cháy và chữa cháy tự động là một trong những biện pháp phòng chống cháy nổ hiệu quả nhất. Khi phát hiện có cháy nổ, hệ thống sẽ tự động phát ra tín hiệu cảnh báo và kích hoạt hệ thống chữa cháy.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+              <h4>Không để chất dễ gây cháy gần nguồn lửa </h4>
+              <p>Các chất dễ cháy gần nguồn lửa như: trữ xăng, dầu,... nên được lưu trữ một cách an toàn và đúng cách. Không để các chất dễ cháy nổ này gần lửa hoặc nơi có nhiệt độ cao để tránh nguy cơ cháy nổ.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card">
+              <h4>Tắt điện ngắt cầu dao trước khi ra khỏi nhà</h4>
+              <p>Trước khi ra khỏi nhà, cần kiểm tra và tắt các thiết bị điện, đặc biệt là các thiết bị có thể gây cháy nổ như bếp gas, lò vi sóng, máy sấy tóc… Ngoài ra, cần ngắt cầu dao để đảm bảo an toàn cho hệ thống điện.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Cách sử dụng bình cứu hỏa -->
+    <section class="section__container" id="client">
+      <h1 class="section__header">Cách <span class="hightlight">Sử Dụng</span> Bình Cứu Hỏa </h1>
+      <ul class="step">
+          <li style="--accent-color:#B90B04">
+              <div class="date">Bước 1</div>
+              <div class="title">Xác định loại bình cứu hỏa</div>
+              <div class="descr">Kiểm tra loại bình cứu hỏa mà bạn đang sử dụng (bình CO2,
+                bình bột, bình bọt...)
+                Đảm bảo bình cứu hỏa vẫn còn trong tình trạng tốt và chưa
+                hết hạn sử dụng.</div>
+          </li>
+          <li style="--accent-color:#B90B04">
+              <div class="date">Bước 2</div>
+              <div class="title">Nguyên tắc PASS</div>
+              <div class="descr">Giữ bình cứu hỏa bằng tay thuận và rút chốt an toàn
+                bằng tay kia
+                Nhắm vòi phun vào gốc lửa từ khoảng cách an toàn
+                (thường là khoảng 1.5 - 2 mét)
+                Bóp cò để phun chất chữa cháy ra ngoài
+                Quét vòi phun qua lại tại gốc lửa cho đến khi lửa tắt</div>
+          </li>
+          <li>
+              <img src="https://i.pinimg.com/736x/23/f1/f3/23f1f369d1000679d41713b52a0bf3d6.jpg" alt="">
+          </li>
+          <li>
+              <img src="https://i.pinimg.com/736x/5d/02/e6/5d02e6600a6b587cb5a25f5bc9c36892.jpg" alt="">
+          </li>
+          <li style="--accent-color:#B90B04">
+              <div class="date">Lưu ý</div>
+              
+              <div class="descr">Luôn giữ khoảng cách an toàn khi tiếp cận đám cháy
+                Không dùng bình cứu hỏa dạng bọt hoặc nước để dập tắt
+                đám cháy điện hay đám cháy do dầu mỡ gây ra
+                Sau khi sử dụng bình cứu hỏa, dù lửa đã tắt hay chưa, hãy
+                gọi lực lượng cứu hỏa để đảm bảo an toàn.</div>
+          </li>
+      </ul>
+    </section>
+    <!-- Tuyen Truyen -->
+    <section class="section__container service__container" id="package";>
+      <div class="service__content">
+        <h2 class="section__header">
+          <span class="hightlight">Tuyên Truyền </span> Về Phòng Cháy Chữa Cháy
+        </h2>
+        <ul class="service__list">
+          <li>
+            <span><i class="ri-price-tag-3-fill"></i></span>
+            <div>
+              <h4>Tầm quan trọng của PCCC </h4>
+              <p>
+                Phòng cháy chữa cháy (PCCC) là nền tảng quan trọng đối với mọi công trình và cộng đồng. Với sứ mệnh bảo vệ cuộc sống và tài sản, PCCC là trách nhiệm xã hội và nghĩa vụ pháp lý của mỗi cá nhân và tổ chức.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-hand-heart-fill"></i></span>
+            <div>
+              <h4>Dịch vụ của chúng tôi</h4>
+              <p>
+                Chúng tôi cung cấp giải pháp PCCC toàn diện và chuyên nghiệp, bao gồm đào tạo, cung cấp thiết bị và lập kế hoạch. Với đội ngũ chuyên gia giàu kinh nghiệm, chúng tôi cam kết đem lại sự an tâm và tiện lợi tối đa cho khách hàng.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-vip-diamond-fill"></i></i></span>
+            <div>
+              <h4>Các nguy cơ và hướng dẫn an toàn</h4>
+              <p>
+                Hiểu rõ các nguy cơ cháy nổ và cách phòng ngừa là bước đầu tiên trong việc bảo vệ. Chúng tôi cung cấp các hướng dẫn chi tiết về cách sử dụng thiết bị PCCC, lập kế hoạch phòng cháy và các biện pháp ứng phó khẩn cấp. Hãy để chúng tôi giúp bạn chuẩn bị trước mọi tình huống.
+              </p>
+            </div>
+          </li>
+          <li>
+            <span><i class="ri-telegram-fill"></i></span>
+            <div>
+              <h4>Liên hệ với chúng tôi</h4>
+              <p>
+                Hãy để chúng tôi giúp bạn bảo vệ mọi giá trị với giải pháp PCCC chuyên nghiệp và hiệu quả. Để biết thêm thông tin chi tiết hoặc để nhận tư vấn miễn phí, hãy liên hệ với chúng tôi ngay hôm nay qua số điện thoại 0906326064
+                 hoặc email 31.le.thoai.9.10@gmail.com. Chúng tôi luôn sẵn sàng phục vụ bạn 24/7.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div style="width: 100%; height: 100%; object-fit: cover;">
+        <img style="width: 100%; height: 100%;border-radius: 15px;" src="./assets/World War II Fire Safety Propaganda Posters.jpg" alt="service" />
+      </div>
+    </section>
+    <!-- Khao sat -->
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__content">
+          <h4>Khảo Sát Đánh Giá Tình Hình</h4>
+          <p>
+            Chúng tôi mong muốn thu thập ý kiến và thông tin từ các cá nhân để cải thiện và đảm bảo an toàn phòng cháy chữa cháy. 
+          </p>        
+        </div>
+        <div class="footer__form">
+          <form action="" class="submit" onsubmit="return validateForm()">
+            <input type="text" placeholder="Enter your email" />
+            <button><a href="https://docs.google.com/forms/d/e/1FAIpQLSdLM62AH_BGWU0nDfd4qoir9Uy-q9cTT-_XwfSoM8BxBfWBag/viewform?vc=0&c=0&w=1&flr=0&pli=1">Click</a></button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="footer_second">
+      <div class="section__container footer__bar">
+        <div class="footer__logo">
+          <h4 class="logo">PCCC <span>THOAI DEV</span></h4>
+          <p>"Chủ Động Phòng Cháy, An Toàn Mọi Nơi – Hãy Hành Động Ngay Hôm Nay!"</p>
+        </div>
+        <ul class="footer__nav">
+          <li class="footer__link"><a href="#">About</a></li>
+          <li class="footer__link"><a href="#">Partnership</a></li>
+          <li class="footer__link"><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </footer>
+    <section class="scroll">
+      <span>>>></span>
+    </section>
+  </body>
+</html>
