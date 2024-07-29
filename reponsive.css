@@ -156,4 +156,13 @@
   .service__list li div p {
     font-size: 15px;
   }
+  .step::before {
+    display: none;
+  }
+  .step {
+    margin: 0;
+  }
+  .step > li {
+    margin: 0;
+  }
 }
